@@ -8,12 +8,12 @@ public class ConcreteDecoratorA extends IDecorator {
 
 	@Override
 	protected void before() {
-		System.out.println("before decoration");
+		System.out.println("A : before decoration");
 	}
 
 	@Override
 	protected void after() {
-		System.out.println("after decoration");
+		System.out.println("A : after decoration");
 	}
 
 }
